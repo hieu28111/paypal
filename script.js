@@ -29,5 +29,5 @@ send.addEventListener("click", function () {
   nhapusd = document.querySelector(".nhapusd").value = z;
 
   sodu.textContent = z + ",00 $";
-  Swal.fire("Send Money is Completed", "You sent " + x + ",00 $");
+  Swal.fire("Send Money is Completed", "You sent " + x + ",00 $", "success");
 });
